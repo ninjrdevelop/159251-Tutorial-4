@@ -8,4 +8,9 @@ public class TestCalc {
 	void addTwoNumbersWorks() {
 		Assertions.assertEquals(Calc.add(1, 2), 3);
 	}
+
+	@Test
+	void subtractTwoNumbersWorks() {
+		Assertions.assertEquals(Calc.subtract(2, 1), 1);
+	}
 }
